@@ -1,0 +1,56 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}
+
+.quoteBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: white;
+  padding: 10px 30px 10px 70px;
+  width: 500px;
+  height: 180px;
+  box-shadow: 13px 14px 8px -8px rgba(0,0,0,0.51);
+}
+.quoteBox-quote{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 70%;
+}
+.quoteBox-quote span{
+  align-self: flex-end;
+}
+.quoteBox-quote div{
+  overflow: auto;
+}
+
+.customButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  color: white;
+  user-select: none;
+  box-shadow: 13px 14px 34px -6px #000000;
+}
+.customButton:hover{
+  transform: scale(1.1);
+}
+.FAIcon{
+  position: absolute;
+  left: -60px;
+  top: 0px;
+  font-size: 60px;
+}
